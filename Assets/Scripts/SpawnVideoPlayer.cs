@@ -1,29 +1,30 @@
 using UnityEngine;
 using UnityEngine.Video;
+using Vuforia;
 
-public class SpawnVideoPlayer : MonoBehaviour
-{
+public class SpawnVideoPlayer : MonoBehaviour {
+
+
     [SerializeField] private GameObject canvas;
     [SerializeField] private VideoPlayer videoPlayer;
     [SerializeField] private bool rotate;
 
-    private void Awake()
-    {
-        if (rotate)
-        {
+
+    private void Awake() {
+        if (rotate) {
             canvas.GetComponent<RectTransform>().rotation = Quaternion.Euler(90f, -90f, 0);
         }
     }
 
-    public void OnImageTrack()
-    {
+    public void OnImageTrack() {
         canvas.SetActive(true);
         videoPlayer.Play();
     }
 
-    public void OnImageUnTrack()
-    {
+    public void OnImageUnTrack() {
         canvas.SetActive(true);
         videoPlayer.Pause();
     }
+
+
 }
