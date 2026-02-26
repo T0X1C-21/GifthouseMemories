@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Video;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class SpawnVideoPlayer : MonoBehaviour
 {
     [SerializeField] private GameObject canvas;
     [SerializeField] private VideoPlayer videoPlayer;

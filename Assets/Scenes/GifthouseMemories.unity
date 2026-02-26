@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 1663208042}
   - component: {fileID: 1663208043}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SpawnVideoPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
