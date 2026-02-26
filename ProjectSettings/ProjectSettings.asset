@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 0db28cab1bb21eb40a63b0a7ca028f04
+  productGUID: ce393ec7c616b4d43b30a03d1a863342
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -924,10 +924,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 94c3f513-ab69-4cad-a47b-3d6ce047c57c
+  cloudProjectId: 874a1b51-8a72-453d-9d4f-2cc795b6b19a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: GifthouseMemories
+  projectName: GifthouseMemories 2026-02-26_13-36-47
   organizationId: t0cks1ck
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
